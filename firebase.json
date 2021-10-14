@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "www",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "functions": {
+      "predeploy": [
+        "npm --prefix \"SRESOURCE_DIR\" rum lint"
+      ]
+  }
+}
+
