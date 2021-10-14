@@ -1,0 +1,60 @@
+page-configuracoes {
+    .img-center {
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+            margin:0 auto;
+            width: 120px;
+            height: 120px;
+        }
+    }
+
+    .conteudo{
+        background: url('../../assets/imgs/bg.jpeg') no-repeat center /cover transparent;
+        //inicio
+        
+        .conteudo-input {
+            ion-item {
+                //background-color: transparent;
+                border-radius: 30px;
+                background-color: rgba(0, 0, 0, 0.397) !important;
+            }
+            ion-input {
+                color: white;
+            }
+            ::placeholder {
+                color: rgb(247, 218, 166);
+            }
+        }
+        .margin-input-top {
+            margin-top: 20px;
+        }
+        .margin-btn-top {
+            margin-top: 30px;
+        }
+        .btn {
+            background-color: rgb(235, 152, 0);
+            border-radius: 30px;
+            text-transform: capitalize;
+        }
+        .grid-logo {
+            ion-col {
+                text-align: center;
+                //border-radius: 100px;
+            }
+            
+        }
+        
+        .margin-btnlink-top {
+            margin-top: 10px;
+        }
+
+        
+    //fim
+    }
+    .btn-link {
+        color: white;
+        text-transform: none;
+    }
+}

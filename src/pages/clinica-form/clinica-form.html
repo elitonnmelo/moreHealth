@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>{{titulo}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="conteudo">
+  <ion-grid class="grid-list">
+    <ion-row align-items-center justify-content-center>
+      <ion-col align-self-center col-12 col-lg-4 col-xl-4> 
+        <ion-list class="conteudo-input">
+
+          <ion-item class="margin-input-top">
+            <ion-label inset>Nome</ion-label>
+            <ion-input type="text" [(ngModel)]="item.nome"></ion-input>
+          </ion-item>
+      
+          <ion-item class="margin-input-top">
+            <ion-label inset>Endereco</ion-label>
+            <ion-input type="text" [(ngModel)]="item.endereco"></ion-input>
+          </ion-item>
+      
+          <ion-item class="margin-input-top">
+            <ion-label inset>Latitude</ion-label>
+            <ion-input type="text" [(ngModel)]="item.lat"></ion-input>
+          </ion-item>
+      
+          <ion-item class="margin-input-top">
+            <ion-label inset>Longitude</ion-label>
+            <ion-input type="text" [(ngModel)]="item.lng"></ion-input>
+          </ion-item>
+      
+          <ion-item class="margin-input-top">
+            <ion-label inset>Cidade</ion-label>
+            <ion-input type="text" [(ngModel)]="item.cidade"></ion-input>
+          </ion-item>
+      
+      
+          <ion-item class="margin-input-top">
+            <ion-label inset>UF</ion-label>
+            <ion-input type="text" [(ngModel)]="item.uf"></ion-input>
+          </ion-item>
+        
+        </ion-list>
+      
+        <button ion-button block (click)="salvar()" class="margin-btn-top btn">Salvar</button>
+      
+        <button ion-button block color="danger" (click)="excluir()" *ngIf="itemID !== undefined" class="margin-btn-top btn-excluir">Excluir</button>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+
+</ion-content>
