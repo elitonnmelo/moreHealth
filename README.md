@@ -1,6 +1,8 @@
 O More Health é um aplicativo voltado para a localização de clinicas mais próximas de você, visando saber qual é o médico mais especializado para melhor lhe atender.
 LINK PARA ACESSAR O SITE WEB MOBILE: https://app-clinica-b7177.web.app/#/login
-APP HOSPEDADO NO BANCO DE DADOS FIREBASE
+
+**APP HOSPEDADO NO BANCO DE DADOS FIREBASE
+**APP INDICADO PARA USAR NO MODO MOBILE PARA UMA MELHOR EXPERIENCIA
 
 O aplicativo contém uma resposividade tanto completa desde o o web site para desktop quanto para dispositivo mobile
 
