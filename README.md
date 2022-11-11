@@ -1,4 +1,4 @@
-O More Health é um aplicativo voltado para a localização de clinicas mais próximas de você, visando saber qual é o médico mais especializado para melhor lhe atender.
+O More Health é um aplicativo desenvolvido em Ionic v3, voltado para a localização de clinicas mais próximas de você, visando saber qual é o médico mais especializado para melhor lhe atender.
 LINK PARA ACESSAR O SITE WEB MOBILE: https://app-clinica-b7177.web.app/#/login
 
 **APP HOSPEDADO NO BANCO DE DADOS FIREBASE
